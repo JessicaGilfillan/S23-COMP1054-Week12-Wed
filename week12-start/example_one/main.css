@@ -1,0 +1,22 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: clamp(1.2rem, 0.75rem +1.5vw, 1.75rem);
+    line-height: 1.5;
+}
+
+.wrapper {
+    max-width: 85vw;
+    margin: 0 auto;
+}
+
+.flexcontainer > section {
+    padding: 1em;
+    border: 1px solid #000;
+}
+
+/* media queries using pixels */
+
+/*media queries using ems */
